@@ -1,0 +1,286 @@
+{
+  "splits": {
+    "training": {
+      "split_name": "training",
+      "file_path": "C:\\Users\\priya\\Desktop\\capstone\\ml\\data\\raw\\datatraining.txt",
+      "file_size_bytes": 596674,
+      "row_count": 8143,
+      "columns": [
+        "date",
+        "Temperature",
+        "Humidity",
+        "Light",
+        "CO2",
+        "HumidityRatio",
+        "Occupancy"
+      ],
+      "missing_counts": {
+        "date": 0,
+        "Temperature": 0,
+        "Humidity": 0,
+        "Light": 0,
+        "CO2": 0,
+        "HumidityRatio": 0,
+        "Occupancy": 0
+      },
+      "duplicate_rows": 0,
+      "duplicate_timestamps": 0,
+      "min_timestamp": "2015-02-04 17:51:00",
+      "max_timestamp": "2015-02-10 09:33:00",
+      "time_span_str": "5 days 15:42:00",
+      "diff_distribution": {
+        "0 days 00:01:00": 4884,
+        "0 days 00:00:59": 1629,
+        "0 days 00:01:01": 1629
+      },
+      "gaps_greater_than_61s_count": 0,
+      "large_gap_details": [],
+      "sensor_stats": {
+        "Temperature": {
+          "min": 19.0,
+          "q25": 19.7,
+          "median": 20.39,
+          "mean": 20.61908364034549,
+          "q75": 21.39,
+          "max": 23.18,
+          "std": 1.0169164411058473
+        },
+        "Humidity": {
+          "min": 16.745,
+          "q25": 20.2,
+          "median": 26.2225,
+          "mean": 25.731507286421873,
+          "q75": 30.5333333333333,
+          "max": 39.1175,
+          "std": 5.531210999582151
+        },
+        "Light": {
+          "min": 0.0,
+          "q25": 0.0,
+          "median": 0.0,
+          "mean": 119.5193745138974,
+          "q75": 256.375,
+          "max": 1546.33333333333,
+          "std": 194.7558047986205
+        },
+        "CO2": {
+          "min": 412.75,
+          "q25": 439.0,
+          "median": 453.5,
+          "mean": 606.5462431945639,
+          "q75": 638.8333333333335,
+          "max": 2028.5,
+          "std": 314.32087688106805
+        },
+        "HumidityRatio": {
+          "min": 0.002674126913904,
+          "q25": 0.0030782843199802,
+          "median": 0.0038007697086113,
+          "mean": 0.003862506678320315,
+          "q75": 0.0043519302929433505,
+          "max": 0.0064760132367102,
+          "std": 0.0008523312991431677
+        }
+      },
+      "class_distribution": {
+        "unoccupied_count": 6414,
+        "occupied_count": 1729,
+        "occupied_percentage": 21.23
+      }
+    },
+    "test": {
+      "split_name": "test",
+      "file_path": "C:\\Users\\priya\\Desktop\\capstone\\ml\\data\\raw\\datatest.txt",
+      "file_size_bytes": 200766,
+      "row_count": 2665,
+      "columns": [
+        "date",
+        "Temperature",
+        "Humidity",
+        "Light",
+        "CO2",
+        "HumidityRatio",
+        "Occupancy"
+      ],
+      "missing_counts": {
+        "date": 0,
+        "Temperature": 0,
+        "Humidity": 0,
+        "Light": 0,
+        "CO2": 0,
+        "HumidityRatio": 0,
+        "Occupancy": 0
+      },
+      "duplicate_rows": 0,
+      "duplicate_timestamps": 0,
+      "min_timestamp": "2015-02-02 14:19:00",
+      "max_timestamp": "2015-02-04 10:43:00",
+      "time_span_str": "1 days 20:24:00",
+      "diff_distribution": {
+        "0 days 00:01:00": 1596,
+        "0 days 00:00:59": 534,
+        "0 days 00:01:01": 534
+      },
+      "gaps_greater_than_61s_count": 0,
+      "large_gap_details": [],
+      "sensor_stats": {
+        "Temperature": {
+          "min": 20.2,
+          "q25": 20.65,
+          "median": 20.89,
+          "mean": 21.433876288751897,
+          "q75": 22.3566666666667,
+          "max": 24.4083333333333,
+          "std": 1.0280241758909994
+        },
+        "Humidity": {
+          "min": 22.1,
+          "q25": 23.26,
+          "median": 25.0,
+          "mean": 25.353936799785583,
+          "q75": 26.8566666666667,
+          "max": 31.4725,
+          "std": 2.436842325144458
+        },
+        "Light": {
+          "min": 0.0,
+          "q25": 0.0,
+          "median": 0.0,
+          "mean": 193.2275556151166,
+          "q75": 442.5,
+          "max": 1697.25,
+          "std": 250.21090577180257
+        },
+        "CO2": {
+          "min": 427.5,
+          "q25": 466.0,
+          "median": 580.5,
+          "mean": 717.9064701152506,
+          "q75": 956.333333333333,
+          "max": 1402.25,
+          "std": 292.68171839377595
+        },
+        "HumidityRatio": {
+          "min": 0.0033033144722347,
+          "q25": 0.003529481592297,
+          "median": 0.0038150700634007,
+          "mean": 0.004027010287333548,
+          "q75": 0.0045315347398536,
+          "max": 0.0053777588397133,
+          "std": 0.0006105726883437672
+        }
+      },
+      "class_distribution": {
+        "unoccupied_count": 1693,
+        "occupied_count": 972,
+        "occupied_percentage": 36.47
+      }
+    },
+    "test2": {
+      "split_name": "test2",
+      "file_path": "C:\\Users\\priya\\Desktop\\capstone\\ml\\data\\raw\\datatest2.txt",
+      "file_size_bytes": 699664,
+      "row_count": 9752,
+      "columns": [
+        "date",
+        "Temperature",
+        "Humidity",
+        "Light",
+        "CO2",
+        "HumidityRatio",
+        "Occupancy"
+      ],
+      "missing_counts": {
+        "date": 0,
+        "Temperature": 0,
+        "Humidity": 0,
+        "Light": 0,
+        "CO2": 0,
+        "HumidityRatio": 0,
+        "Occupancy": 0
+      },
+      "duplicate_rows": 0,
+      "duplicate_timestamps": 0,
+      "min_timestamp": "2015-02-11 14:48:00",
+      "max_timestamp": "2015-02-18 09:19:00",
+      "time_span_str": "6 days 18:31:00",
+      "diff_distribution": {
+        "0 days 00:01:00": 5849,
+        "0 days 00:00:59": 1951,
+        "0 days 00:01:01": 1951
+      },
+      "gaps_greater_than_61s_count": 0,
+      "large_gap_details": [],
+      "sensor_stats": {
+        "Temperature": {
+          "min": 19.5,
+          "q25": 20.29,
+          "median": 20.79,
+          "mean": 21.001768440661746,
+          "q75": 21.5333333333333,
+          "max": 24.39,
+          "std": 1.0206932150237176
+        },
+        "Humidity": {
+          "min": 21.865,
+          "q25": 26.642083333333325,
+          "median": 30.2,
+          "mean": 29.891910206453375,
+          "q75": 32.7,
+          "max": 39.5,
+          "std": 3.9528438069194904
+        },
+        "Light": {
+          "min": 0.0,
+          "q25": 0.0,
+          "median": 0.0,
+          "mean": 123.06792965545529,
+          "q75": 208.25,
+          "max": 1581.0,
+          "std": 208.22127511718844
+        },
+        "CO2": {
+          "min": 484.666666666667,
+          "q25": 542.3124999999998,
+          "median": 639.0,
+          "mean": 753.2248316584632,
+          "q75": 831.125,
+          "max": 2076.5,
+          "std": 297.09611361144437
+        },
+        "HumidityRatio": {
+          "min": 0.0032747639766004,
+          "q25": 0.004196307174011725,
+          "median": 0.0045933097710052,
+          "mean": 0.004588778034292167,
+          "q75": 0.004997965656951225,
+          "max": 0.0057686083475499,
+          "std": 0.0005309846105317295
+        }
+      },
+      "class_distribution": {
+        "unoccupied_count": 7703,
+        "occupied_count": 2049,
+        "occupied_percentage": 21.01
+      }
+    }
+  },
+  "inter_split_gaps": [
+    {
+      "from_split": "test",
+      "from_end": "2015-02-04 10:43:00",
+      "to_split": "training",
+      "to_start": "2015-02-04 17:51:00",
+      "gap_hours": 7.13,
+      "gap_str": "0 days 07:08:00"
+    },
+    {
+      "from_split": "training",
+      "from_end": "2015-02-10 09:33:00",
+      "to_split": "test2",
+      "to_start": "2015-02-11 14:48:00",
+      "gap_hours": 29.25,
+      "gap_str": "1 days 05:15:00"
+    }
+  ]
+}
